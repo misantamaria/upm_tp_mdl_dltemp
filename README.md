@@ -1,15 +1,42 @@
-# dltemp
-> Material for the course ``Deep Learning para series temporales" (DLTEMP).
-> Máster en Deep Learning UPM.
-> Universidad Politécnica de Madrid.
-> Curso 2024-25.
+# Deep Learning para series temporales
+---
+--- 
 
-## nbs
-This folder contains Jupyter Notebooks with examples on how to build from scratch many of the algorithms taught in the course.
+<img align="left" src="ruta/a/image1.png" alt="Logo UPM" width="150">
+<img align="right" src="ruta/a/image2.png" alt="Logo Master" width="150">
 
-## exercises
-This folder contains Jupyter notebooks with the assignments to be done each week of the course
+---
+---
+[Español](#español) | [English](#english)
 
-## slides
-This folder contains the course slides
+---
 
+## Español
+### Descripción
+Material para el curso "Deep Learning para series temporales" (DLTEMP)
+- Máster en Deep Learning UPM.
+- Universidad Politécnica de Madrid.
+- Curso 2024-25.
+
+### Contenido
+- `nbs`: Contiene cuadernos Jupyter con ejemplos prácticos sobre algoritmos enseñados en el curso.
+- `exercises`: Incluye cuadernos Jupyter con ejercicios semanales.
+- `slides`: Contiene las diapositivas del curso.
+
+[Volver al índice](#índice)
+
+---
+
+## English
+### Description
+Material for the course "Deep Learning para series temporales" (DLTEMP)
+- Master in Deep Learning UPM.
+- Polytechnic University of Madrid.
+- Course 2024-25.
+
+### Content
+- `nbs`: Contains Jupyter Notebooks with practical examples of algorithms taught in the course.
+- `exercises`: Includes Jupyter Notebooks with weekly assignments.
+- `slides`: Contains the course slides.
+
+[Back to Index](#índice)
