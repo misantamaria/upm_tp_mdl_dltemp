@@ -1,16 +1,13 @@
 # Deep Learning para series temporales
----
---- 
 
-<img align="left" src="ruta/a/image1.png" alt="Logo UPM" width="150">
-<img align="right" src="ruta/a/image2.png" alt="Logo Master" width="150">
+<img align="left" src="./image-1.png" alt="Logo UPM" width="150">
+<img align="right" src="./image-2.png" alt="Logo Master" width="150">
 
 ---
----
+
 [Español](#español) | [English](#english)
 
 ---
-
 ## Español
 ### Descripción
 Material para el curso "Deep Learning para series temporales" (DLTEMP)
