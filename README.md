@@ -28,8 +28,7 @@ Este repositorio contiene el material para el curso **Deep Learning para series 
 ### Contenido de la asignatura
 Explicaciones detalladas sobre los temas tratados en el curso.
 
-[Volver al índice](#índice)  
-[Inicio](#)
+[Volver al índice](#índice)  | [Inicio](#)
 
 ---
 
@@ -49,5 +48,4 @@ This repository contains the material for the course **"Deep Learning para serie
 ### Course Content
 Detailed explanations of the topics covered in the course.
 
-[Back to Index](#index)  
-[Top](#)
+[Back to Index](#index)   | [Top](#)
