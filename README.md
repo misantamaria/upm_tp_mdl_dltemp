@@ -1,8 +1,8 @@
 # Deep Learning para series temporales
 Máster en Deep Learning UPM | Universidad Politécnica de Madrid | Curso 2024-25
 
-<img align="left" src="./image-1.png" alt="Logo Master" width="200">
-<img align="right" src="./image-2.png" alt="Logo UPM" width="200">
+<img align="left" src="./imgs/master_dl_logo.png" alt="Logo Master" width="200">
+<img align="right" src="./imgs/upm_logo.png" alt="Logo UPM" width="200">
 
 
 <br>
