@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:  # Agrega esto para ejecutarlo manualmente desde GitHub Actions
+  workflow_dispatch:  # Para ejecutarlo manualmente desde GitHub Actions
 
 jobs:
   mirror:
@@ -16,12 +16,17 @@ jobs:
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
           git remote add public https://misantamaria:${{ secrets.GH_TOKEN }}@github.com/misantamaria/upm_pfp_mdl_dltemp.git
-
-          # Forzar la sobreescritura de todo el repositorio
+          
+          # Traer la última versión desde el repositorio remoto
           git fetch origin
-          git reset --hard origin/main  # Esto asegura que todo se sobrescriba con la rama entrante
-
-          # Push al repositorio público, forzando el push
+          
+          # Asegurarse de que la rama main esté actualizada
+          git reset --hard origin/main  # Esto asegura que todo se sobrescriba con la rama main del remoto
+          
+          # Verificar que esté todo en orden (esto puede ayudar a ver qué cambios se trajeron)
+          git status
+          
+          # Forzar el push al repositorio público con la última versión de main
           git push public main --force
     permissions:
       contents: write
