@@ -1,4 +1,4 @@
-name: Mirror main branch to public repo 
+name: Mirror main branch to public repo
 on:
   push:
     branches:
