@@ -15,6 +15,6 @@ jobs:
         uses: actions/checkout@v3
       - name: Mirror repo
         run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name "GitHub Actions"
+          git config --global user.email "mi.santamaria@upm.es"
+          git config --global user.name "mi.santamaria"
           git push https://misantamaria:${{ secrets.GH_TOKEN }}@github.com/misantamaria/upm_pfp_mdl_dltemp.git main --force
