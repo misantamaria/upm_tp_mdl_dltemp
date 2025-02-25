@@ -15,18 +15,24 @@ jobs:
         uses: actions/checkout@v3
       - name: Force mirror the repo
         run: |
+          echo "Configurando Git..."
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
+          
+          echo "Agregando remote 'public'..."
           git remote add public https://misantamaria:${{ secrets.GH_TOKEN }}@github.com/misantamaria/upm_pfp_mdl_dltemp.git
           
-          # Traer la última versión desde el repositorio remoto
-          git fetch origin
+          echo "Agregando remote 'private'..."
+          git remote add private https://misantamaria:${{ secrets.GH_TOKEN }}@github.com/misantamaria/dltemp.git
           
-          # Asegurarse de que la rama main esté actualizada
-          git reset --hard origin/main  # Esto asegura que todo se sobrescriba con la rama main del remoto
+          echo "Obteniendo la última versión de 'private/main'..."
+          git fetch private
           
-          # Verificar que esté todo en orden (esto puede ayudar a ver qué cambios se trajeron)
+          echo "Reseteando el repositorio a 'private/main'..."
+          git reset --hard private/main
+          
+          echo "Estado del repositorio tras el reset:"
           git status
           
-          # Forzar el push al repositorio público con la última versión de main
+          echo "Forzando push a 'public/main'..."
           git push public main --force
