@@ -30,5 +30,3 @@ jobs:
           
           # Forzar el push al repositorio público con la última versión de main
           git push public main --force
-    permissions:
-      contents: write
