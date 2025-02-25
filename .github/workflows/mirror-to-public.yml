@@ -25,6 +25,9 @@ jobs:
           echo "Agregando remote 'private'..."
           git remote add private https://misantamaria:${{ secrets.GH_TOKEN }}@github.com/misantamaria/dltemp.git
           
+          echo "Listando remotes para verificación:"
+          git remote -v
+          
           echo "Obteniendo la última versión de 'private/main'..."
           git fetch private
           
